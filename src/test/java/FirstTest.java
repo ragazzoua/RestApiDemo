@@ -14,7 +14,7 @@ public class FirstTest {
         //given - all input details
         //when - submit the Api - resource and http method
         //then - validate the response
-        given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json").body(Payload.addPlace())
+        String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json").body(Payload.addPlace())
                 .when()
                 .post("maps/api/place/add/json")
                 .then()
@@ -22,7 +22,8 @@ public class FirstTest {
                 .all()
                 .statusCode(200)
                 .body("scope", equalTo("APP"))
-                .header("Server", "Apache/2.4.18 (Ubuntu)");
+                .header("Server", "Apache/2.4.18 (Ubuntu)")
+                .extract().response().asString();
 
 
     }
