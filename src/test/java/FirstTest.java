@@ -1,5 +1,6 @@
 import files.Payload;
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -25,7 +26,11 @@ public class FirstTest {
                 .header("Server", "Apache/2.4.18 (Ubuntu)")
                 .extract().response().asString();
 
+        System.out.println(response);
 
+        JsonPath jsonPath = new JsonPath(response); //for parsing Json
+
+        String placeId = jsonPath.getString("place_id");
     }
 
 
