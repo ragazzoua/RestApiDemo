@@ -1,4 +1,5 @@
 import files.Payload;
+import files.ReUsableMethods;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
@@ -52,11 +53,10 @@ public class FirstTest {
                 .get("maps/api/place/get/json")
                 .then().assertThat().statusCode(200).extract().response().asString();
 
-        JsonPath js = new JsonPath(newResponse);
-        String address = js.getString("address");
+        JsonPath jsonPath1 = ReUsableMethods.rawToJson(newResponse);
+        String address = jsonPath1.getString("address");
 
         Assert.assertEquals(address, newAddress);
-
     }
 
 
