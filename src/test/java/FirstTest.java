@@ -1,8 +1,7 @@
 import files.Payload;
 import io.restassured.RestAssured;
-import io.restassured.internal.common.assertion.Assertion;
 import io.restassured.path.json.JsonPath;
-import org.junit.Assert;
+import org.testng.Assert;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -55,6 +54,8 @@ public class FirstTest {
 
         JsonPath js = new JsonPath(newResponse);
         String address = js.getString("address");
+
+        Assert.assertEquals(address, newAddress);
 
     }
 
