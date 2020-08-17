@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82f51ca2-523e-453e-bcc3-ef03f80c66b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/files/ComplexJsonpath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -11,8 +10,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/files/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/files/Payload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/files/ComplexJsonpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/files/ComplexJsonpath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,20 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../newtest" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ComplexJsonpath">
+    <configuration name="ComplexJsonpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.ComplexJsonpath" />
+      <module name="RestApiDemo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
       <module name="RestApiDemo.test" />
@@ -55,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComplexJsonpath" />
         <item itemvalue="Application.FirstTest" />
       </list>
     </recent_temporary>
@@ -133,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597482280904</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add another json">
+      <created>1597645248123</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597645248123</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,13 +164,14 @@
     <MESSAGE value="testng added" />
     <MESSAGE value="assert added" />
     <MESSAGE value="reusable added" />
-    <option name="LAST_COMMIT_MESSAGE" value="reusable added" />
+    <MESSAGE value="add another json" />
+    <option name="LAST_COMMIT_MESSAGE" value="add another json" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="993" y="111" key="CommitChangelistDialog2" timestamp="1597482279235">
+    <state x="993" y="111" key="CommitChangelistDialog2" timestamp="1597645245467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="993" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597482279235" />
+    <state x="993" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597645245467" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597386207943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
