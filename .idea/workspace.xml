@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82f51ca2-523e-453e-bcc3-ef03f80c66b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/files/ReUsableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/files/ComplexJsonpath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -11,7 +11,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/files/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/files/Payload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597481955068</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="reusable added">
+      <created>1597482280904</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597482280904</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,13 +144,14 @@
     <MESSAGE value="put and get added" />
     <MESSAGE value="testng added" />
     <MESSAGE value="assert added" />
-    <option name="LAST_COMMIT_MESSAGE" value="assert added" />
+    <MESSAGE value="reusable added" />
+    <option name="LAST_COMMIT_MESSAGE" value="reusable added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="993" y="111" key="CommitChangelistDialog2" timestamp="1597481953389">
+    <state x="993" y="111" key="CommitChangelistDialog2" timestamp="1597482279235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="993" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597481953389" />
+    <state x="993" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597482279235" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597386207943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
