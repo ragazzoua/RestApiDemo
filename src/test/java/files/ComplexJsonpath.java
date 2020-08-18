@@ -15,5 +15,9 @@ public class ComplexJsonpath {
         int anInt1 = jsonPath.getInt("dashboard.purchaseAmount");
 
         System.out.println(anInt1);
+
+        String title = jsonPath.get("courses[0].title");
+
+        System.out.println(title);
     }
 }
