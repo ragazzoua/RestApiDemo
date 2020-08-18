@@ -26,11 +26,19 @@ public class ComplexJsonpath {
             String coursesTitles = jsonPath.get("courses[" + i + "].title");
             String coursesPrice = jsonPath.get("courses[" + i + "].price").toString();
             System.out.println(coursesTitles + " " + coursesPrice);
+        }
 
+        //5. Print no of copies sold by RPA Course
+        for (int i = 0; i < count; i++) {
+            String coursesTitles = jsonPath.get("courses[" + i + "].title");
+            if (coursesTitles.equalsIgnoreCase("RPA")){
+                int copies = jsonPath.get("courses[" + i + "].copies");
+                System.out.println(copies);
+            }
         }
     }
 
-//5. Print no of copies sold by RPA Course
+
 //
 //6. Verify if Sum of all Course prices matches with Purchase Amount
 }
