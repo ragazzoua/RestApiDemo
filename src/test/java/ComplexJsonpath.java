@@ -1,5 +1,4 @@
-package files;
-
+import files.Payload;
 import io.restassured.path.json.JsonPath;
 
 public class ComplexJsonpath {
@@ -37,8 +36,4 @@ public class ComplexJsonpath {
             }
         }
     }
-
-
-//
-//6. Verify if Sum of all Course prices matches with Purchase Amount
 }
