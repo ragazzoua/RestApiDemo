@@ -13,7 +13,7 @@ public class DinamicJson {
     public void addBook(){
         RestAssured.baseURI = "https://rahulshettyacademy.com";
         String response = given().header("Content-Type", "application/json")
-                .body(Payload.addBook())
+                .body(Payload.addBook("1", "222"))
                 .when()
                 .post("/Library/Addbook.php")
                 .then().log().all().assertThat().statusCode(200)
