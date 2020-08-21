@@ -11,10 +11,10 @@ public class DinamicJson {
 
 
     @Test(dataProvider = "BooksData")
-    public void addBook(){
+    public void addBook(String isbn, String aisle){
         RestAssured.baseURI = "https://rahulshettyacademy.com";
         String response = given().header("Content-Type", "application/json")
-                .body(Payload.addBook("1", "222"))
+                .body(Payload.addBook(isbn, aisle))
                 .when()
                 .post("/Library/Addbook.php")
                 .then().log().all().assertThat().statusCode(200)
@@ -26,8 +26,7 @@ public class DinamicJson {
 
     @DataProvider(name = "BooksData")
     public Object[][] getData(){
-
-        return new Object[][]{{"2323","535345"},{"2342345","22ggs"},{"cgsfsd","rewrwer"}};
+        return new Object[][]{{"sdf","222"},{"dsf","1122"},{"hjk","2334"}};
     }
 
 }
