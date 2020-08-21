@@ -26,7 +26,7 @@ public class DinamicJson {
 
     @DataProvider(name = "BooksData")
     public Object[][] getData(){
-        return new Object[][]{{"sdf","222"},{"dsf","1122"},{"hjk","2334"}};
+        return new Object[][]{{"sdf","2102"},{"dsf","1142"},{"hjk","2154"}};
     }
 
 }
