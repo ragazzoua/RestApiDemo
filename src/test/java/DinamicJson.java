@@ -24,9 +24,20 @@ public class DinamicJson {
         System.out.println(js.get("ID").toString());
     }
 
+    @Test(dataProvider = "BooksData", dependsOnMethods = "addBook")
+    public void deleteBook(String isbn, String aisle){
+        RestAssured.baseURI = "https://rahulshettyacademy.com";
+        String response = given().header("Content-Type", "application/json")
+                .body(Payload.getDeleteBody(isbn, aisle))
+                .when()
+                .delete("/Library/DeleteBook.php")
+                .then().log().all().assertThat().statusCode(200)
+                .extract().response().asString();
+    }
+
     @DataProvider(name = "BooksData")
     public Object[][] getData(){
-        return new Object[][]{{"sdf","2102"},{"dsf","1142"},{"hjk","2154"}};
+        return new Object[][]{{"adf","2102"},{"asf","1142"},{"ajk","2154"}};
     }
 
 }

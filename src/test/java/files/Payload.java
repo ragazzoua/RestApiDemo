@@ -77,6 +77,15 @@ public class Payload {
                 "    \"author\":\"John foe\"\r\n" +
                 "}";
         return request;
+    }
 
+    public static String getDeleteBody(String isbn, String aisle){
+        String id = isbn + aisle;
+        String s = "{\n" +
+                " \n" +
+                "\"ID\" : \""+id+"\"\n" +
+                " \n" +
+                "}";
+        return s;
     }
 }
