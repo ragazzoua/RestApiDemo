@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82f51ca2-523e-453e-bcc3-ef03f80c66b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/GetCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/WebAutomation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/Courses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,12 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pojo" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pojo" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.StaticJson.addBook">
@@ -314,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597992424083</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="pojo created">
+      <created>1598802085314</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1598802085314</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -337,17 +352,22 @@
     <MESSAGE value="add parametr" />
     <MESSAGE value="data provider added" />
     <MESSAGE value="delete book added" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete book added" />
+    <MESSAGE value="pojo created" />
+    <option name="LAST_COMMIT_MESSAGE" value="pojo created" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1598803836275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598803836275" />
     <state x="743" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597815971878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1597815971878" />
-    <state x="993" y="111" key="CommitChangelistDialog2" timestamp="1597992421910">
+    <state x="993" y="111" key="CommitChangelistDialog2" timestamp="1598802082664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="993" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597992421910" />
+    <state x="993" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598802082664" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597386207943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -372,10 +392,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597993049342" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597951965396">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598802090581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597951965396" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598802090581" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597386295464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -384,5 +404,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597386652796" />
+    <state x="666" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1598803855549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598803855549" />
   </component>
 </project>
