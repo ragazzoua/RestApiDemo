@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82f51ca2-523e-453e-bcc3-ef03f80c66b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/WebAutomation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/PojoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/Courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
       <recent name="pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StaticJson.addBook">
+  <component name="RunManager" selected="Gradle.PojoTest.pojoTest">
     <configuration name="DinamicJson" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -109,6 +107,25 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="PojoTest.pojoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;pojo.PojoTest.pojoTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="StaticJson.addBook" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -128,32 +145,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SumValidation.sumOfCourses" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SumValidation.sumOfCourses&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PojoTest.pojoTest" />
         <item itemvalue="Gradle.StaticJson.addBook" />
         <item itemvalue="Gradle.DinamicJson" />
         <item itemvalue="Gradle.DinamicJson.deleteBook" />
         <item itemvalue="Gradle.DinamicJson.addBook" />
-        <item itemvalue="Gradle.SumValidation.sumOfCourses" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598802085314</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="pojo classes created">
+      <created>1598804212455</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1598804212455</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -353,7 +358,8 @@
     <MESSAGE value="data provider added" />
     <MESSAGE value="delete book added" />
     <MESSAGE value="pojo created" />
-    <option name="LAST_COMMIT_MESSAGE" value="pojo created" />
+    <MESSAGE value="pojo classes created" />
+    <option name="LAST_COMMIT_MESSAGE" value="pojo classes created" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1598803836275">
@@ -364,10 +370,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1597815971878" />
-    <state x="993" y="111" key="CommitChangelistDialog2" timestamp="1598802082664">
+    <state x="993" y="111" key="CommitChangelistDialog2" timestamp="1598804210581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="993" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598802082664" />
+    <state x="993" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598804210581" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597386207943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -392,10 +398,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597993049342" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598802090581">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598804216031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598802090581" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598804216031" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597386295464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
